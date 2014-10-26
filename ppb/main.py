@@ -27,10 +27,10 @@ if __name__ == '__main__':
         logger.info("x value: %s", i.x)
         j = Point(y=6, x=5)
         x, y = j
+        x = 10 / 0
 
     except Exception, e:
-        logger.error('Failed to run batch', exc_info=True)
-        logger.error('Failure !!!')
+        logger.exception('Failed to run batch')
 
     else:
         logger.info("Sucess !!!")
