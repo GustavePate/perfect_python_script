@@ -1,5 +1,10 @@
 from decimal import Decimal
 from decimal import getcontext
+import logging
+
+
+logger = logging.getLogger(__name__)
+
 
 def demo():
 

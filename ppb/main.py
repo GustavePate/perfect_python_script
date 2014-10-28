@@ -2,24 +2,42 @@ from collections import namedtuple
 import logging.config
 import os
 import json
-
+import sys
+from demos.demo_decimal import demo as demo_decimal
 
 logger = logging.getLogger(__name__)
 
 
 if __name__ == '__main__':
 
-    path = 'logging.json'
-    if os.path.exists(path):
-        with open(path, 'rt') as f:
+    # compute log file absolute path
+    pathname = os.path.dirname(sys.argv[0])
+    full_path = os.path.abspath(pathname)
+    log_conf_path = os.path.join(full_path, 'logging.json')
+
+    # read log configuration
+    if os.path.exists(log_conf_path):
+        with open(log_conf_path, 'rt') as f:
             config = json.load(f)
         logging.config.dictConfig(config)
     else:
+        # default value
         logging.basicConfig(level=logging.INFO)
+
+    logger.info("................start...............")
+
+    # read applictaion configuration
+    conf_path = os.path.join(full_path, 'conf.json')
+    if os.path.exists(conf_path):
+        with open(conf_path, 'rt') as f:
+            conf = json.load(f)
+
+    logger.info(conf)
 
     try:
 
-        logger.info("................start...............")
+        demo_decimal()
+
         Point = namedtuple('Point', 'x, y')
 
         i = Point(1, 2)
@@ -29,7 +47,7 @@ if __name__ == '__main__':
         x, y = j
         x = 10 / 0
 
-    except Exception, e:
+    except Exception as e:
         logger.exception('Failed to run batch')
 
     else:

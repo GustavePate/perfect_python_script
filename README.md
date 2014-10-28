@@ -1,23 +1,27 @@
 The Perfect Python Batch
 =============================
 
-A demostrator and reminder for the most usefull python libraries and best practices
+A demonstrator and reminder for the most usefull python libraries and best practices
 
 
-CONTEXT
+Context
 ----------
 
 Based on the reddit post: http://www.reddit.com/r/Python/comments/28yo37/what_are_the_top_10_builtin_python_modules_that_a/
 
-DONE
+Done
 ------
 
 - logging
 
-TODO
------
+Pending
+----------
 
 - py.test
+
+Todo
+-----
+
 - travis ci
 - collections -- specifically namedtuples
 - csv -- always use this to read/write CSV files, don't try and roll your own methods, it'll end in tears
