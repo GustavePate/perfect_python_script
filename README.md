@@ -12,7 +12,7 @@ and
 
 Pull Request welcome !!!
 
-[![Build Status](https://api.travis-ci.org/GustavePate/perfectpythonbatch.png?branch=master)](https://api.travis-ci.org/GustavePate/perfectpythonbatch)
+[![Build Status](https://api.travis-ci.org/GustavePate/perfectpythonbatch.png?branch=master)](https://travis-ci.org/GustavePate/perfectpythonbatch)
 
 Done
 ------
