@@ -4,14 +4,32 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
 def demo():
 
-    Point = namedtuple('Point', 'x, y')
+    res = False
+    try:
 
-    i = Point(1, 2)
-    print i
-    print i.x
+        logger.info("****** Named tuples demo *******")
 
-    j = Point(y=6, x=5)
-    x, y = j
-    print x, y
+        Point = namedtuple('Point', 'x, y')
+
+        i = Point(1, 2)
+        logger.info(i)
+        logger.info(i.x)
+        logger.info("x value: %s", i.x)
+
+        j = Point(y=6, x=5)
+        x, y = j
+        logger.info(str((x, y)))
+
+    except Exception:
+
+        logger.exception("Named tuples demo failed")
+        raise
+
+    else:
+        res = True
+
+    finally:
+        return res

@@ -6,7 +6,9 @@ import logging.config
 import os
 import json
 import sys
-from demos.demo_decimal import demo as demo_decimal
+import demos.demo_decimal as demo_decimal
+import demos.demo_named_tuples as demo_named_tuples
+
 from pprint import pformat
 
 
@@ -31,7 +33,7 @@ def main(args):
         # default value
         logging.basicConfig(level=logging.INFO)
 
-    logger.info("................start...............")
+    logger.info("................init...............")
 
     # read applictaion configuration
     conf_path = os.path.join(full_path, "..", "ressources", "conf", 'conf.json')
@@ -43,24 +45,17 @@ def main(args):
     logger.info(pformat(conf))
     logger.info("args: " + str(args))
 
+    logger.info("................start...............")
     try:
 
-        demo_decimal()
-
-        Point = namedtuple('Point', 'x, y')
-
-        i = Point(1, 2)
-        logger.info(i)
-        logger.info("x value: %s", i.x)
-        j = Point(y=6, x=5)
-        x, y = j
-        # x = 10 / 0
+        demo_decimal.demo()
+        demo_named_tuples.demo()
 
     except Exception:
         logger.exception('Failed to run batch')
         ERROR = True
     else:
-        logger.info("Sucess !!!")
+        logger.debug("Sucess !!!")
 
     finally:
         if ERROR:

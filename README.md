@@ -3,7 +3,6 @@ The Perfect Python Batch
 
 A demonstrator and reminder for the most usefull python libraries and best practices
 
-
 Context
 ----------
 
@@ -21,18 +20,17 @@ Done
 - pep8 compliance
 - Makefile
 - requirement.txt / virtualenv
+- py.test
 
 Pending
 ----------
 
 - Json configuration / Borg
-- py.test
 
 Todo
 -----
 
 - travis ci
-
 - docopt -- if you're writing command-line scripts/tools, use this over optparse/argparse
 - clint
 - cliff
