@@ -4,6 +4,10 @@
     "formatters": {
         "simple": {
             "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+        },
+        "colored": {
+            "()": "colorlog.ColoredFormatter",
+            "format": "%(log_color)s%(levelname)s%(reset)s %(asctime)s - %(name)s: %(message)s"
         }
     },
 
@@ -14,6 +18,12 @@
             "formatter": "simple",
             "stream": "ext://sys.stdout"
         },
+        "stream": {
+            "class": "logging.StreamHandler",
+            "level": "DEBUG",
+            "formatter": "colored"
+        },
+
 
         "info_file_handler": {
             "class": "logging.handlers.RotatingFileHandler",
@@ -55,6 +65,6 @@
 
     "root": {
         "level": "INFO",
-        "handlers": ["console", "basic_file_handler"]
+        "handlers": ["stream", "basic_file_handler"]
     }
 }

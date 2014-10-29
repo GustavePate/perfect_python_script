@@ -67,5 +67,6 @@ def main(verbose, name):
         else:
             logger.info("...............script successfully ended..............")
 
+
 if __name__ == '__main__':
     main()
