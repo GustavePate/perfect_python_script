@@ -9,6 +9,7 @@ Context
 Based on [this reddit post]( http://www.reddit.com/r/Python/comments/28yo37/what_are_the_top_10_builtin_python_modules_that_a/)
 and
 [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
+[Python patterns](http://python-3-patterns-idioms-test.readthedocs.org/)
 
 Pull Request welcome !!!
 
@@ -17,25 +18,29 @@ Pull Request welcome !!!
 Done
 ------
 
+Generalities
+================
 - logging
-- pep8 compliance
 - Makefile
 - requirement.txt / virtualenv
+- Json configuration / Borg
+- argument parsing: click
+
+Quality
+================
+- pep8 compliance
 - py.test
+- travis ci
 
 Pending
 ----------
 
-- Json configuration / Borg
 
 Todo
 -----
 
-- travis ci
 - docopt -- if you're writing command-line scripts/tools, use this over optparse/argparse
-- clint
 - cliff
-- click !!!
 
 - collections -- specifically namedtuples
 - csv -- always use this to read/write CSV files, don't try and roll your own methods, it'll end in tears

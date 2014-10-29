@@ -1,21 +1,24 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from collections import namedtuple
 import logging.config
 import os
 import json
 import sys
+import click
 import demos.demo_decimal as demo_decimal
 import demos.demo_named_tuples as demo_named_tuples
-
+from utils.Configuration import ConfBorg
 from pprint import pformat
 
 
 logger = logging.getLogger(__name__)
 
 
-def main(args):
+@click.command()
+@click.option('--verbose', default=1, help='Program verbosity.')
+@click.option('--name', prompt='Your name', help='The person to greet.')
+def main(verbose, name):
 
     ERROR = False
 
@@ -42,8 +45,9 @@ def main(args):
             conf = json.load(f)
 
     logger.info("conf: ")
-    logger.info(pformat(conf))
-    logger.info("args: " + str(args))
+    borg = ConfBorg(conf)
+    logger.info(pformat(borg.conf))
+    logger.info("args: " + str(sys.argv))
 
     logger.info("................start...............")
     try:
@@ -63,6 +67,5 @@ def main(args):
         else:
             logger.info("...............script successfully ended..............")
 
-
 if __name__ == '__main__':
-    main(sys.argv)
+    main()
