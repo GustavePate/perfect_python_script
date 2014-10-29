@@ -1,8 +1,8 @@
 all:
 	python ${PWD}/ppb/main.py
 
-testall:
-	py.test --maxfail=1 --showlocals  --duration=3 -v --clearcache  -s
+test:
+	py.test -c ressources/conf/pytest.ini --maxfail=1 --showlocals  --duration=3 -v  -s
 
 initvenv:
 	pip install -r requirements.txt
