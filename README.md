@@ -32,16 +32,17 @@ Quality
 - py.test
 - travis ci
 
+Pretty
+==============
+- colorlog
+- click progress bar
+
 Pending
 ----------
 
 
 Todo
 -----
-
-- docopt -- if you're writing command-line scripts/tools, use this over optparse/argparse
-- cliff
-
 - collections -- specifically namedtuples
 - csv -- always use this to read/write CSV files, don't try and roll your own methods, it'll end in tears
 - sqllite

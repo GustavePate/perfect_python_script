@@ -1,6 +1,7 @@
 {
     "version": 1,
     "disable_existing_loggers": false,
+
     "formatters": {
         "simple": {
             "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
@@ -12,22 +13,16 @@
     },
 
     "handlers": {
-        "console": {
+        "stream_handler": {
             "class": "logging.StreamHandler",
             "level": "DEBUG",
-            "formatter": "simple",
+            "formatter": "colored",
             "stream": "ext://sys.stdout"
-        },
-        "stream": {
-            "class": "logging.StreamHandler",
-            "level": "DEBUG",
-            "formatter": "colored"
-        },
 
-
+        },
         "info_file_handler": {
             "class": "logging.handlers.RotatingFileHandler",
-            "level": "INFO",
+            "level": "DEBUG",
             "formatter": "simple",
             "filename": "logs/info.log",
             "maxBytes": 10485760,
@@ -46,7 +41,7 @@
         },
         "basic_file_handler":{
             "class": "logging.FileHandler",
-            "level": "INFO",
+            "level": "DEBUG",
             "formatter": "simple",
             "filename": "logs/perfect_batch.log",
             "mode" : "w",
@@ -57,14 +52,17 @@
 
     "loggers": {
         "ppb": {
-            "level": "INFO",
-            "handlers": ["console", "basic_file_handler"],
+            "level": "DEBUG",
+            "propagate": "no"
+        },
+        "__main__": {
+            "level": "DEBUG",
             "propagate": "no"
         }
     },
 
     "root": {
-        "level": "INFO",
-        "handlers": ["stream", "basic_file_handler"]
+        "level": "NOTSET",
+        "handlers": ["stream_handler", "basic_file_handler"]
     }
 }

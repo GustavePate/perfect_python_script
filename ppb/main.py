@@ -4,6 +4,7 @@
 import logging.config
 import os
 import json
+import time
 import sys
 import click
 import demos.demo_decimal as demo_decimal
@@ -16,9 +17,22 @@ logger = logging.getLogger(__name__)
 
 
 @click.command()
-@click.option('--verbose', default=1, help='Program verbosity.')
-@click.option('--name', prompt='Your name', help='The person to greet.')
-def main(verbose, name):
+@click.option('--verbose', '-v', default=False, help='Program verbosity.')
+@click.option('-m1', '--mode1', 'exclusive_mode', flag_value='mode1',
+              default=True, help='functionnal mode 1, exclusive with mode 2')
+@click.option('-m2', '--mode2', 'exclusive_mode', flag_value='mode2',
+              help='functionnal mode 2, exclusive withe mode 1')
+@click.option('-s', '--string', help='A simple string')
+@click.option('-x', '--closed_choice', type=click.Choice(['md5', 'sha1']), help='a closed value choice')
+@click.argument('file1', type=click.Path(resolve_path=True))
+# checks file existence and attributes
+# @click.argument('file2', type=click.Path(exists=True, file_okay=True, dir_okay=False, writable=False, readable=True, resolve_path=True))
+def main(verbose, string, exclusive_mode, closed_choice, file1):
+    """The perfect python script.
+
+    A template and technology demonstrator
+    for running really good python scripts.
+    """
 
     ERROR = False
 
@@ -38,13 +52,20 @@ def main(verbose, name):
 
     logger.info("................init...............")
 
+    logger.info(".......parametrers: ")
+    logger.info("verbose: " + str(verbose))
+    logger.info("string: " + str(string))
+    logger.info("exclusive_mode: " + str(exclusive_mode))
+    logger.info("closed_choice: " + str(closed_choice))
+    logger.info("file1: " + str(file1))
+
     # read applictaion configuration
     conf_path = os.path.join(full_path, "..", "ressources", "conf", 'conf.json')
     if os.path.exists(conf_path):
         with open(conf_path, 'rt') as f:
             conf = json.load(f)
 
-    logger.info("conf: ")
+    logger.info(".......conf: ")
     borg = ConfBorg(conf)
     logger.info(pformat(borg.conf))
     logger.info("args: " + str(sys.argv))
@@ -62,6 +83,10 @@ def main(verbose, name):
         logger.debug("Sucess !!!")
 
     finally:
+        with click.progressbar([None]*100, label='Beautifull progress bar') as bar:
+            for i in bar:
+                time.sleep(0.002)
+
         if ERROR:
             logger.error("..............script ended with errors...............")
         else:
