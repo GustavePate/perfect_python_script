@@ -2,18 +2,17 @@
 # -*- coding: utf-8 -*-
 
 import logging.config
-import os
-import json
-import time
-import sys
 import click
+from utils.boilerplatecode import script_init
 import demos.demo_decimal as demo_decimal
 import demos.demo_named_tuples as demo_named_tuples
-from utils.Configuration import ConfBorg
-from pprint import pformat
-
+import demos.demo_csv as demo_csv
+import demos.demo_tempfiles as demo_tmp
+import demos.demo_progressbar as demo_progressbar
 
 logger = logging.getLogger(__name__)
+
+# click demonstrator
 
 
 @click.command()
@@ -36,57 +35,32 @@ def main(verbose, string, exclusive_mode, closed_choice, file1):
 
     ERROR = False
 
-    # compute log file absolute path
-    pathname = os.path.dirname(sys.argv[0])
-    full_path = os.path.abspath(pathname)
-    log_conf_path = os.path.join(full_path, "..", "ressources", "conf", 'logging.json')
+    cli_args = {}
+    cli_args[u'verbose'] = verbose
+    cli_args[u'string'] = string
+    cli_args[u'exclusive_mode'] = exclusive_mode
+    cli_args[u'closed_choice'] = closed_choice
+    cli_args[u'file1'] = file1
 
-    # read log configuration
-    if os.path.exists(log_conf_path):
-        with open(log_conf_path, 'rt') as f:
-            config = json.load(f)
-        logging.config.dictConfig(config)
-    else:
-        # default value
-        logging.basicConfig(level=logging.INFO)
-
-    logger.info("................init...............")
-
-    logger.info(".......parametrers: ")
-    logger.info("verbose: " + str(verbose))
-    logger.info("string: " + str(string))
-    logger.info("exclusive_mode: " + str(exclusive_mode))
-    logger.info("closed_choice: " + str(closed_choice))
-    logger.info("file1: " + str(file1))
-
-    # read applictaion configuration
-    conf_path = os.path.join(full_path, "..", "ressources", "conf", 'conf.json')
-    if os.path.exists(conf_path):
-        with open(conf_path, 'rt') as f:
-            conf = json.load(f)
-
-    logger.info(".......conf: ")
-    borg = ConfBorg(conf)
-    logger.info(pformat(borg.conf))
-    logger.info("args: " + str(sys.argv))
+    script_init(cli_args)
 
     logger.info("................start...............")
     try:
 
         demo_decimal.demo()
         demo_named_tuples.demo()
+        demo_progressbar.demo()
+        demo_tmp.demo()
+        demo_csv.demo()
 
     except Exception:
         logger.exception('Failed to run batch')
         ERROR = True
+
     else:
-        logger.debug("Sucess !!!")
+        logger.debug("Success !!!")
 
     finally:
-        with click.progressbar([None]*100, label='Beautifull progress bar') as bar:
-            for i in bar:
-                time.sleep(0.002)
-
         if ERROR:
             logger.error("..............script ended with errors...............")
         else:

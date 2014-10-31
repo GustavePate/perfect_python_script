@@ -1,5 +1,7 @@
 #!/bin/bash
 
 . ~/venv/perfectpythonbatch/bin/activate
-python -m ppb.main $@
+export PYTHONPATH=$PYTHONPATH:$(dirname $(dirname $0))
+echo $PYTHONPATH
+python -m pps.perfectpythonscript $@
 

@@ -1,0 +1,368 @@
+departement;cp;commune;nb_redevables;patrimoine_moyen;impot_moyen
+PARIS                         ;75107;PARIS                                             ;5598;4879729;27610
+HAUTS-DE-SEINE                ;92051;NEUILLY SUR SEINE                                 ;5640;4675284;23951
+PARIS                         ;75116;PARIS                                             ;13916;4014829;21805
+PARIS                         ;75108;PARIS                                             ;3041;4011642;22700
+PARIS                         ;75106;PARIS                                             ;3843;3899152;20076
+ESSONNE                       ;91477;PALAISEAU                                         ;210;3759322;17884
+ALPES-MARITIMES               ;6900;MONACO                                            ;471;3654586;24291
+PARIS                         ;75104;PARIS                                             ;1150;3475590;16741
+NORD                          ;59163;CROIX                                             ;264;3337077;15278
+PARIS                         ;75101;PARIS                                             ;722;3320939;17465
+GIRONDE                       ;33069;LE BOUSCAT                                        ;278;3266451;11714
+MARTINIQUE                    ;97209;FORT DE FRANCE                                    ;81;3246959;16184
+NORD                          ;59646;WASQUEHAL                                         ;201;3240040;16178
+AUBE                          ;10387;TROYES                                            ;200;3130555;10785
+HAUTS-DE-SEINE                ;92064;SAINT CLOUD                                       ;1258;3092788;15325
+PARIS                         ;75103;PARIS                                             ;1034;3010359;14053
+PARIS                         ;75117;PARIS                                             ;5822;2987475;14266
+HAUTE-SAVOIE                  ;74281;THONON-LES-BAINS                                  ;183;2978220;13438
+HAUTE-VIENNE                  ;87085;LIMOGES                                           ;458;2937360;13744
+ALPES-MARITIMES               ;6029;CANNES                                            ;1405;2928926;14370
+BAS-RHIN                      ;67482;STRASBOURG                                        ;1551;2924367;12975
+NORD                          ;59512;ROUBAIX                                           ;151;2924160;12040
+AIN                           ;1283;OYONNAX                                           ;88;2913690;12687
+NORD                          ;59378;MARCQ EN BAROEUL                                  ;732;2891578;13024
+NORD                          ;59009;VILLENEUVE D'ASCQ                                 ;352;2885611;12869
+NORD                          ;59017;ARMENTIERES                                       ;54;2884755;14522
+VOSGES                        ;88160;EPINAL                                            ;103;2878482;15431
+NORD                          ;59328;LAMBERSART                                        ;216;2869570;12209
+OISE                          ;60159;COMPIEGNE                                         ;277;2798943;12185
+GIRONDE                       ;33550;VILLENAVE-D'ORNON                                 ;69;2785789;8380
+PARIS                         ;75114;PARIS                                             ;3118;2785211;13293
+HAUTS-DE-SEINE                ;92044;LEVALLOIS-PERRET                                  ;1152;2782865;10578
+HAUTS-DE-SEINE                ;92012;BOULOGNE BILLANCOURT                              ;3409;2773653;12194
+VAL-DE-MARNE                  ;94052;NOGENT SUR MARNE                                  ;716;2772175;11217
+SEINE-ET-MARNE                ;77350;OZOIR LA FERRIERE                                 ;68;2770389;13632
+VAL-DE-MARNE                  ;94067;SAINT MANDE                                       ;760;2756486;12734
+VAL-D'OISE                    ;95252;FRANCONVILLE                                      ;52;2744267;13630
+PARIS                         ;75105;PARIS                                             ;2464;2731775;12016
+FINISTERE                     ;29019;BREST                                             ;259;2728262;10260
+HAUTS-DE-SEINE                ;92046;MALAKOFF                                          ;141;2727273;7784
+SEINE-ET-MARNE                ;77243;LAGNY SUR MARNE                                   ;88;2713488;11670
+BOUCHES-DU-RHONE              ;13001;AIX EN PROVENCE                                   ;1742;2701371;11782
+PARIS                         ;75118;PARIS                                             ;1304;2701156;12223
+DEUX-SEVRES                   ;79191;NIORT                                             ;204;2700473;12149
+RHONE                         ;69202;STE FOY LES LYON                                  ;350;2696974;11883
+NORD                          ;59368;LA MADELEINE                                      ;140;2681937;11165
+LA REUNION                    ;97418;SAINTE MARIE                                      ;69;2679988;10135
+SAONE-ET-LOIRE                ;71270;MACON                                             ;104;2678506;13725
+DROME                         ;26362;VALENCE                                           ;238;2670244;9721
+YVELINES                      ;78126;LA CELLE-SAINT-CLOUD                              ;491;2656830;11661
+EURE-ET-LOIR                  ;28134;DREUX                                             ;61;2643349;12890
+MARNE                         ;51230;EPERNAY                                           ;96;2639866;13687
+GIRONDE                       ;33063;BORDEAUX                                          ;2093;2637727;11851
+SEINE-MARITIME                ;76108;BOIS-GUILLAUME-BIHOREL                            ;280;2634396;10434
+HAUT-RHIN                     ;68224;MULHOUSE                                          ;309;2629572;11579
+ILLE-ET-VILAINE               ;35238;RENNES                                            ;1137;2628651;11434
+MAYENNE                       ;53130;LAVAL                                             ;191;2625811;10252
+PARIS                         ;75109;PARIS                                             ;1673;2624245;11515
+RHONE                         ;69034;CALUIRE ET CUIRE                                  ;495;2614844;11304
+RHONE                         ;69290;SAINT-PRIEST                                      ;71;2614635;11310
+CORSE-DU-SUD                  ;2A 004;AJACCIO                                           ;227;2608624;11585
+NIEVRE                        ;58194;NEVERS                                            ;83;2608264;12937
+YVELINES                      ;78646;VERSAILLES                                        ;2471;2608250;10887
+RHONE                         ;69123;LYON                                              ;3984;2604708;10994
+LANDES                        ;40088;DAX                                               ;103;2603699;11716
+LOIRE-ATLANTIQUE              ;44109;NANTES                                            ;1944;2603236;11732
+VAL-DE-MARNE                  ;94041;IVRY SUR SEINE                                    ;99;2603043;7142
+BOUCHES-DU-RHONE              ;13055;MARSEILLE                                         ;3472;2600480;10277
+VAL-D'OISE                    ;95428;MONTMORENCY                                       ;280;2591567;10942
+MOSELLE                       ;57631;SARREGUEMINES                                     ;66;2591162;9931
+COTE-D'OR                     ;21231;DIJON                                             ;609;2582126;8898
+OISE                          ;60057;BEAUVAIS                                          ;164;2575472;9555
+PARIS                         ;75115;PARIS                                             ;6230;2571716;11125
+MOSELLE                       ;57463;METZ                                              ;381;2566638;9929
+ISERE                         ;38563;VOIRON                                            ;81;2566353;9742
+SAVOIE                        ;73065;CHAMBERY                                          ;309;2558201;10753
+MOSELLE                       ;57672;THIONVILLE                                        ;195;2557501;11222
+SEINE-SAINT-DENIS             ;93045;LES LILAS                                         ;119;2554846;13365
+VAL-DE-MARNE                  ;94068;SAINT MAUR DES FOSSES                             ;1490;2553093;10289
+PAS-DE-CALAIS                 ;62160;BOULOGNE SUR MER                                  ;80;2551527;8157
+NORD                          ;59350;LILLE                                             ;834;2550368;10665
+YVELINES                      ;78551;SAINT-GERMAIN-EN-LAYE                             ;1117;2544483;10667
+HAUTE-CORSE                   ;2B 033;BASTIA                                            ;95;2543165;11605
+INDRE                         ;36044;CHATEAUROUX                                       ;132;2537613;13013
+CORREZE                       ;19031;BRIVE                                             ;207;2536525;10470
+PARIS                         ;75102;PARIS                                             ;454;2535353;10481
+PYRENEES-ATLANTIQUES          ;64445;PAU                                               ;394;2534939;7918
+YVELINES                      ;78361;MANTES-LA-JOLIE                                   ;87;2534604;11976
+VENDEE                        ;85191;LA ROCHE SUR YON                                  ;150;2533629;11295
+LOIRE-ATLANTIQUE              ;44162;SAINT-HERBLAIN                                    ;81;2532502;8632
+SARTHE                        ;72181;LE MANS                                           ;479;2524064;9866
+HAUT-RHIN                     ;68066;COLMAR                                            ;246;2521980;9810
+MARNE                         ;51454;REIMS                                             ;724;2521923;10733
+VAL-DE-MARNE                  ;94033;FONTENAY SOUS BOIS                                ;540;2520057;10278
+MEURTHE-ET-MOSELLE            ;54395;NANCY                                             ;606;2519608;11306
+ESSONNE                       ;91223;ETAMPES                                           ;68;2518736;10002
+ALPES-MARITIMES               ;6030;LE CANNET                                         ;345;2513862;10636
+YVELINES                      ;78146;CHATOU                                            ;596;2512954;10596
+TARN-ET-GARONNE               ;82121;MONTAUBAN                                         ;206;2510973;9935
+LA REUNION                    ;97415;SAINT PAUL                                        ;250;2509241;9093
+HAUTS-DE-SEINE                ;92049;MONTROUGE                                         ;361;2504843;11691
+TERRITOIRE DE BELFORT         ;90010;BELFORT                                           ;94;2502222;9829
+ISERE                         ;38053;BOURGOIN JALLIEU                                  ;73;2498308;12169
+HAUTS-DE-SEINE                ;92063;RUEIL MALMAISON                                   ;1400;2495740;9797
+HAUTS-DE-SEINE                ;92048;MEUDON                                            ;925;2494428;9614
+YVELINES                      ;78158;LE CHESNAY                                        ;674;2494236;10743
+VAUCLUSE                      ;84007;AVIGNON                                           ;319;2493932;10537
+PYRENEES-ATLANTIQUES          ;64102;BAYONNE                                           ;222;2486813;10995
+MANCHE                        ;50129;CHERBOURG OCTEVILLE                               ;91;2486758;9159
+BOUCHES-DU-RHONE              ;13047;ISTRES                                            ;65;2485151;9472
+VIENNE                        ;86194;POITIERS                                          ;276;2483390;10269
+MOSELLE                       ;57480;MONTIGNY LES METZ                                 ;106;2482652;10970
+GIRONDE                       ;33192;GRADIGNAN                                         ;126;2482344;11077
+ALLIER                        ;3185;MONTLUCON                                         ;110;2481889;7478
+HAUTS-DE-SEINE                ;92072;SEVRES                                            ;582;2478126;9122
+PYRENEES-ORIENTALES           ;66136;PERPIGNAN                                         ;433;2476676;10142
+CALVADOS                      ;14118;CAEN                                              ;557;2475255;9491
+YVELINES                      ;78358;MAISONS-LAFFITTE                                  ;575;2474588;10354
+LOIRE                         ;42187;ROANNE                                            ;85;2473837;10902
+VAUCLUSE                      ;84031;CARPENTRAS                                        ;121;2473361;10120
+RHONE                         ;69204;SAINT-GENIS-LAVAL                                 ;145;2469008;9956
+HERAULT                       ;34301;SETE                                              ;209;2460459;10698
+PYRENEES-ATLANTIQUES          ;64122;BIARRITZ                                          ;447;2459409;10349
+LOIRE-ATLANTIQUE              ;44215;VERTOU                                            ;147;2456429;11650
+ESSONNE                       ;91201;DRAVEIL                                           ;124;2455704;9588
+BOUCHES-DU-RHONE              ;13004;ARLES                                             ;164;2455365;10595
+SOMME                         ;80021;AMIENS                                            ;474;2453108;9676
+SEINE-ET-MARNE                ;77288;MELUN                                             ;108;2451582;10956
+ISERE                         ;38185;GRENOBLE                                          ;645;2446246;9970
+VAL-D'OISE                    ;95018;ARGENTEUIL                                        ;126;2443887;9880
+BOUCHES-DU-RHONE              ;13005;AUBAGNE                                           ;208;2441189;9239
+HAUTS-DE-SEINE                ;92073;SURESNES                                          ;550;2438314;9860
+YONNE                         ;89387;SENS                                              ;100;2433450;10094
+LOIRE                         ;42218;SAINT ETIENNE                                     ;470;2433160;10254
+ALPES-MARITIMES               ;6088;NICE                                              ;2728;2429913;10061
+ALPES-MARITIMES               ;6155;VALLAURIS                                         ;286;2427557;10318
+CHARENTE-MARITIME             ;17300;LA ROCHELLE                                       ;519;2426944;9417
+NORD                          ;59122;CAMBRAI                                           ;148;2426496;8510
+ILLE-ET-VILAINE               ;35288;SAINT MALO                                        ;391;2425198;9297
+PAS-DE-CALAIS                 ;62498;LENS                                              ;55;2423289;9890
+YVELINES                      ;78517;RAMBOUILLET                                       ;207;2422890;9575
+PARIS                         ;75111;PARIS                                             ;1947;2420194;10012
+DOUBS                         ;25056;BESANCON                                          ;347;2420087;9107
+MAINE-ET-LOIRE                ;49099;CHOLET                                            ;187;2419804;8432
+VAL-D'OISE                    ;95555;ST GRATIEN                                        ;111;2418296;8355
+SEINE-SAINT-DENIS             ;93077;VILLEMOMBLE                                       ;175;2418151;8882
+HERAULT                       ;34032;BEZIERS                                           ;259;2416884;9660
+ALPES-MARITIMES               ;6069;GRASSE                                            ;306;2416611;10465
+GIRONDE                       ;33243;LIBOURNE                                          ;128;2415568;8587
+HAUTE-GARONNE                 ;31555;TOULOUSE                                          ;2400;2415273;9265
+DROME                         ;26198;MONTELIMAR                                        ;127;2414666;9188
+ALLIER                        ;3190;MOULINS                                           ;58;2414406;9219
+RHONE                         ;69282;MEYZIEU                                           ;98;2413352;10020
+SEINE-MARITIME                ;76351;LE HAVRE                                          ;338;2412571;9937
+VAL-D'OISE                    ;95500;PONTOISE                                          ;90;2411593;10236
+PUY-DE-DOME                   ;63113;CLERMONT-FERRAND                                  ;449;2408774;10399
+HAUTS-DE-SEINE                ;92014;BOURG LA REINE                                    ;417;2408738;10085
+LA REUNION                    ;97416;SAINT PIERRE                                      ;148;2407854;8795
+CANTAL                        ;15014;AURILLAC                                          ;104;2405547;10392
+ALPES-MARITIMES               ;6004;ANTIBES                                           ;881;2404472;9904
+AISNE                         ;2691;SAINT QUENTIN                                     ;156;2401143;9853
+HAUTS-DE-SEINE                ;92019;CHATENAY MALABRY                                  ;275;2399126;9342
+MORBIHAN                      ;56121;LORIENT                                           ;138;2398262;9161
+HERAULT                       ;34172;MONTPELLIER                                       ;984;2397288;9981
+ESSONNE                       ;91027;ATHIS MONS                                        ;62;2394788;10769
+VAR                           ;83062;LA GARDE                                          ;99;2392501;9677
+EURE-ET-LOIR                  ;28085;CHARTRES                                          ;253;2392468;9626
+VAL-DE-MARNE                  ;94073;THIAIS                                            ;112;2387786;10361
+NORD                          ;59295;HAZEBROUCK                                        ;85;2385611;10085
+NORD                          ;59178;DOUAI                                             ;146;2384622;8930
+PAS-DE-CALAIS                 ;62041;ARRAS                                             ;174;2382094;9602
+PARIS                         ;75113;PARIS                                             ;1901;2380751;9252
+FINISTERE                     ;29232;QUIMPER                                           ;206;2378003;9884
+RHONE                         ;69286;RILLIEUX LA PAPE                                  ;92;2377644;8905
+LOIRE                         ;42207;SAINT CHAMOND                                     ;72;2377475;10277
+HAUTE-GARONNE                 ;31557;TOURNEFEUILLE                                     ;154;2375351;7940
+SEINE-MARITIME                ;76540;ROUEN                                             ;497;2373708;9865
+PARIS                         ;75119;PARIS                                             ;967;2373209;9000
+MAINE-ET-LOIRE                ;49007;ANGERS                                            ;574;2371760;9327
+HAUTE-SAVOIE                  ;74011;ANNECY-LE-VIEUX                                   ;357;2368834;8934
+YVELINES                      ;78172;CONFLANS-SAINTE-HONORINE                          ;94;2368544;7195
+ESSONNE                       ;91434;MORSANG SUR ORGE                                  ;74;2367635;9605
+GUADELOUPE                    ;97113;LE GOSIER                                         ;75;2367107;8656
+ALPES-DE-HAUTE-PROVENCE       ;4112;MANOSQUE                                          ;128;2362570;11026
+VAR                           ;83118;SAINT-RAPHAEL                                     ;713;2361809;8847
+CHARENTE                      ;16015;ANGOULEME                                         ;143;2360231;8480
+HAUTS-DE-SEINE                ;92004;ASNIERES                                          ;707;2357190;9319
+MORBIHAN                      ;56260;VANNES                                            ;416;2357117;8489
+ESSONNE                       ;91114;BRUNOY                                            ;146;2356783;9680
+YVELINES                      ;78490;PLAISIR                                           ;108;2355878;8694
+BOUCHES-DU-RHONE              ;13028;LA CIOTAT                                         ;225;2354679;8615
+DORDOGNE                      ;24322;PERIGUEUX                                         ;101;2352625;9694
+GARD                          ;30189;NIMES                                             ;653;2352206;8944
+VAL-D'OISE                    ;95306;HERBLAY                                           ;97;2351105;10210
+PARIS                         ;75110;PARIS                                             ;877;2351034;8891
+AUDE                          ;11262;NARBONNE                                          ;149;2346031;8639
+RHONE                         ;69264;VILLEFRANCHE-SUR-SAONE                            ;99;2341720;8987
+INDRE-ET-LOIRE                ;37122;JOUE LES TOURS                                    ;76;2340357;9640
+LA REUNION                    ;97411;SAINT DENIS                                       ;474;2340341;9331
+PARIS                         ;75112;PARIS                                             ;2177;2336802;9230
+LOIRE-ATLANTIQUE              ;44114;ORVAULT                                           ;162;2336789;8263
+PYRENEES-ATLANTIQUES          ;64024;ANGLET                                            ;340;2336698;8952
+SEINE-ET-MARNE                ;77058;BUSSY ST GEORGES                                  ;62;2333404;8700
+GIRONDE                       ;33318;PESSAC                                            ;215;2331404;8819
+GIRONDE                       ;33529;LA TESTE DE BUCH                                  ;246;2330487;9720
+VAL-DE-MARNE                  ;94017;CHAMPIGNY SUR MARNE                               ;145;2328709;9275
+AVEYRON                       ;12202;RODEZ                                             ;129;2327176;9614
+VOSGES                        ;88413;SAINT DIE DES VOSGES                              ;51;2326240;9558
+GERS                          ;32013;AUCH                                              ;71;2324724;6678
+COTES-D'ARMOR                 ;22278;SAINT-BRIEUC                                      ;171;2323422;8792
+INDRE-ET-LOIRE                ;37261;TOURS                                             ;635;2322845;9057
+SEINE-SAINT-DENIS             ;93048;MONTREUIL SOUS BOIS                               ;206;2320422;9201
+VAL-DE-MARNE                  ;94058;LE PERREUX SUR MARNE                              ;408;2318909;9065
+SOMME                         ;80001;ABBEVILLE                                         ;64;2318239;8448
+BAS-RHIN                      ;67447;SCHILTIGHEIM                                      ;67;2318099;8089
+VAL-DE-MARNE                  ;94034;FRESNES                                           ;53;2318012;8643
+ALPES-MARITIMES               ;6079;MANDELIEU                                         ;333;2316263;9125
+HAUTS-DE-SEINE                ;92025;COLOMBES                                          ;388;2311964;9273
+VAL-DE-MARNE                  ;94076;VILLEJUIF                                         ;90;2308723;8024
+SEINE-SAINT-DENIS             ;93001;AUBERVILLIERS                                     ;50;2308080;10061
+AISNE                         ;2722;SOISSONS                                          ;153;2306395;8971
+LOT-ET-GARONNE                ;47001;AGEN                                              ;99;2306231;9364
+SEINE-SAINT-DENIS             ;93005;AULNAY SOUS BOIS                                  ;156;2303192;9001
+VAL-DE-MARNE                  ;94022;CHOISY LE ROI                                     ;78;2303068;10196
+AVEYRON                       ;12145;MILLAU                                            ;62;2302853;9522
+ILLE-ET-VILAINE               ;35115;FOUGERES                                          ;65;2302531;8341
+VAL-D'OISE                    ;95582;SANNOIS                                           ;66;2301515;7959
+VIENNE                        ;86066;CHATELLERAULT                                     ;75;2297865;9957
+ALLIER                        ;3310;VICHY                                             ;158;2297374;10563
+LOIRET                        ;45234;ORLEANS                                           ;531;2296904;9150
+HAUTE-GARONNE                 ;31069;BLAGNAC                                           ;85;2293842;9206
+PAS-DE-CALAIS                 ;62193;CALAIS                                            ;96;2292722;9220
+HAUT-RHIN                     ;68297;SAINT LOUIS                                       ;54;2291762;9244
+VAL-DE-MARNE                  ;94018;CHARENTON LE PONT                                 ;406;2290558;8599
+SEINE-ET-MARNE                ;77284;MEAUX                                             ;134;2289189;8934
+COTE-D'OR                     ;21054;BEAUNE                                            ;132;2288373;6594
+RHONE                         ;69029;BRON                                              ;149;2288224;8497
+ORNE                          ;61001;ALENCON                                           ;80;2276305;8527
+LOIR-ET-CHER                  ;41018;BLOIS                                             ;156;2276272;9085
+HAUTS-DE-SEINE                ;92009;BOIS-COLOMBES                                     ;290;2274372;7807
+HAUTS-DE-SEINE                ;92075;VANVES                                            ;322;2273617;8142
+VAL-DE-MARNE                  ;94028;CRETEIL                                           ;209;2271618;8914
+HAUTS-DE-SEINE                ;92035;LA GARENNE COLOMBES                               ;291;2270569;8479
+PAS-DE-CALAIS                 ;62119;BETHUNE                                           ;99;2268317;7835
+GIRONDE                       ;33449;SAINT-MEDARD-EN-JALLES                            ;84;2268027;7878
+VAL-DE-MARNE                  ;94080;VINCENNES                                         ;930;2267065;8586
+HAUTE-GARONNE                 ;31395;MURET                                             ;77;2266190;9793
+ALPES-MARITIMES               ;6083;MENTON                                            ;190;2265743;8841
+HAUTES-ALPES                  ;5061;GAP                                               ;196;2262907;7887
+HAUTS-DE-SEINE                ;92023;CLAMART                                           ;602;2256389;8256
+TARN                          ;81004;ALBI                                              ;183;2255901;8669
+LOIRE-ATLANTIQUE              ;44190;ST SEBASTIEN SUR LOIRE                            ;85;2255663;9077
+TARN                          ;81065;CASTRES                                           ;131;2254559;7754
+HAUTS-DE-SEINE                ;92040;ISSY LES MOULINEAUX                               ;721;2253891;8038
+ESSONNE                       ;91421;MONTGERON                                         ;146;2250160;9426
+VAR                           ;83069;HYERES                                            ;479;2249944;8214
+SEINE-SAINT-DENIS             ;93066;SAINT DENIS                                       ;51;2243866;7658
+NORD                          ;59183;DUNKERQUE                                         ;232;2241378;8332
+AUDE                          ;11069;CARCASSONNE                                       ;138;2234331;8466
+AISNE                         ;2408;LAON                                              ;68;2233576;7946
+ESSONNE                       ;91272;GIF SUR YVETTE                                    ;342;2232455;8209
+VAL-DE-MARNE                  ;94071;SUCY EN BRIE                                      ;172;2231952;7951
+YONNE                         ;89024;AUXERRE                                           ;117;2231882;8835
+ESSONNE                       ;91174;CORBEIL ESSONNES                                  ;59;2231777;8507
+SEINE-SAINT-DENIS             ;93051;NOISY LE GRAND                                    ;133;2229840;9519
+GIRONDE                       ;33281;MERIGNAC                                          ;228;2228867;8561
+LOIRE-ATLANTIQUE              ;44184;ST NAZAIRE                                        ;167;2227072;9792
+MARNE                         ;51108;CHALONS EN CHAMPAGNE                              ;123;2224775;8243
+MEURTHE-ET-MOSELLE            ;54547;VANDOEUVRE LES NANCY                              ;64;2223848;8363
+LOIRET                        ;45232;OLIVET                                            ;168;2222554;8664
+AIN                           ;1053;BOURG-EN-BRESSE                                   ;149;2221432;9164
+HAUTS-DE-SEINE                ;92062;PUTEAUX                                           ;287;2220582;8043
+PARIS                         ;75120;PARIS                                             ;1032;2217393;8393
+HAUTE-SAVOIE                  ;74010;ANNECY                                            ;442;2217120;7830
+ISERE                         ;38544;VIENNE                                            ;125;2213546;8171
+VAR                           ;83137;TOULON                                            ;616;2212802;8274
+VAR                           ;83061;FREJUS                                            ;347;2212585;8473
+HAUTS-DE-SEINE                ;92026;COURBEVOIE                                        ;919;2202398;7993
+EURE                          ;27229;EVREUX                                            ;150;2200063;8008
+ALPES-MARITIMES               ;6123;SAINT LAURENT DU VAR                              ;182;2198427;8619
+SAONE-ET-LOIRE                ;71076;CHALON SUR SAONE                                  ;129;2196780;7885
+DROME                         ;26281;ROMANS                                            ;100;2196477;7787
+GIRONDE                       ;33522;TALENCE                                           ;156;2192805;8565
+SEINE-SAINT-DENIS             ;93046;LIVRY GARGAN                                      ;92;2190123;8823
+NORD                          ;59599;TOURCOING                                         ;124;2185409;7840
+HAUTS-DE-SEINE                ;92024;CLICHY                                            ;101;2185195;8596
+CHER                          ;18033;BOURGES                                           ;231;2184048;8149
+LA REUNION                    ;97422;TAMPON                                            ;134;2181735;8193
+SEINE-SAINT-DENIS             ;93053;NOISY LE SEC                                      ;67;2180929;8621
+VAL-D'OISE                    ;95176;CORMEILLES EN PARISIS                             ;118;2179313;8202
+ALPES-MARITIMES               ;6027;CAGNES SUR MER                                    ;352;2175750;8496
+VAL-DE-MARNE                  ;94016;CACHAN                                            ;137;2174050;7543
+JURA                          ;39198;DOLE                                              ;56;2172150;5720
+NORD                          ;59279;HALLUIN                                           ;56;2168251;7964
+ESSONNE                       ;91549;STE GENEVIEVE DES BOIS                            ;127;2166355;8356
+MAINE-ET-LOIRE                ;49328;SAUMUR                                            ;109;2163270;6645
+NORD                          ;59606;VALENCIENNES                                      ;175;2161678;7839
+LOT-ET-GARONNE                ;47323;VILLENEUVE SUR LOT                                ;71;2161345;7681
+VAUCLUSE                      ;84035;CAVAILLON                                         ;89;2159770;7291
+HAUTS-DE-SEINE                ;92002;ANTONY                                            ;718;2154364;7816
+CHARENTE-MARITIME             ;17415;SAINTES                                           ;89;2153325;8068
+VAUCLUSE                      ;84087;ORANGE                                            ;88;2150373;7600
+VAL-DE-MARNE                  ;94046;MAISONS ALFORT                                    ;268;2150112;8239
+HAUTS-DE-SEINE                ;92020;CHATILLON                                         ;210;2147918;8034
+HERAULT                       ;34003;AGDE                                              ;156;2142366;7711
+VAL-D'OISE                    ;95607;TAVERNY                                           ;90;2138290;7589
+VAR                           ;83050;DRAGUIGNAN                                        ;205;2137929;8318
+SEINE-SAINT-DENIS             ;93032;GAGNY                                             ;107;2136546;6584
+SEINE-SAINT-DENIS             ;93064;ROSNY SOUS BOIS                                   ;91;2132348;8100
+CHARENTE-MARITIME             ;17299;ROCHEFORT                                         ;52;2129962;7516
+GARD                          ;30007;ALES                                              ;109;2129810;6427
+SEINE-SAINT-DENIS             ;93029;DRANCY                                            ;84;2129356;7629
+VAR                           ;83129;SIX-FOURS-LES-PLAGES                              ;241;2128700;7580
+SEINE-MARITIME                ;76217;DIEPPE                                            ;91;2128017;7754
+ARDENNES                      ;8105;CHARLEVILLE MEZIERES                              ;123;2125050;6791
+SEINE-SAINT-DENIS             ;93070;SAINT OUEN                                        ;58;2121111;8441
+HAUTE-SAVOIE                  ;74012;ANNEMASSE                                         ;99;2120740;7276
+HAUTS-DE-SEINE                ;92060;LE PLESSIS ROBINSON                               ;166;2110486;7781
+LANDES                        ;40192;MONT-DE-MARSAN                                    ;95;2108570;7369
+RHONE                         ;69149;OULLINS                                           ;55;2108535;6873
+RHONE                         ;69266;VILLEURBANNE                                      ;245;2096534;7284
+LOT                           ;46042;CAHORS                                            ;67;2094522;7794
+SEINE-SAINT-DENIS             ;93055;PANTIN                                            ;76;2092167;7304
+YVELINES                      ;78498;POISSY                                            ;141;2088347;7739
+EURE                          ;27681;VERNON                                            ;88;2080486;7841
+BAS-RHIN                      ;67218;ILLKIRCH GRAFFENSTADEN                            ;95;2073082;7990
+VAL-DE-MARNE                  ;94038;L'HAY LES ROSES                                   ;195;2071082;6751
+COTES-D'ARMOR                 ;22113;LANNION                                           ;76;2069806;8125
+BOUCHES-DU-RHONE              ;13054;MARIGNANE                                         ;61;2068040;6588
+SEINE-ET-MARNE                ;77373;PONTAULT COMBAULT                                 ;71;2065573;7822
+LOIRE-ATLANTIQUE              ;44143;REZE                                              ;69;2065503;6411
+LA REUNION                    ;97408;LA POSSESSION                                     ;68;2065253;6231
+ESSONNE                       ;91589;SAVIGNY SUR ORGE                                  ;121;2060317;6994
+DORDOGNE                      ;24037;BERGERAC                                          ;105;2058258;7580
+VAL-D'OISE                    ;95127;CERGY                                             ;64;2054702;7251
+VAL-DE-MARNE                  ;94043;LE KREMLIN BICETRE                                ;60;2054406;7192
+ESSONNE                       ;91691;YERRES                                            ;107;2053078;7041
+HAUTS-DE-SEINE                ;92050;NANTERRE                                          ;217;2052877;6938
+SAVOIE                        ;73008;AIX LES BAINS                                     ;186;2052010;6610
+VAR                           ;83144;LA VALETTE                                        ;86;2049032;7457
+HAUTES-PYRENEES               ;65440;TARBES                                            ;92;2047292;7312
+YVELINES                      ;78586;SARTROUVILLE                                      ;146;2046022;6930
+VAL-D'OISE                    ;95197;DEUIL LA BARRE                                    ;100;2042512;6980
+BOUCHES-DU-RHONE              ;13103;SALON DE PROVENCE                                 ;143;2041014;6809
+HAUTS-DE-SEINE                ;92032;FONTENAY AUX ROSES                                ;241;2040428;6633
+HAUTE-GARONNE                 ;31149;COLOMIERS                                         ;92;2031998;5872
+BOUCHES-DU-RHONE              ;13056;MARTIGUES                                         ;93;2029809;7216
+SEINE-ET-MARNE                ;77108;CHELLES                                           ;122;2027236;7315
+VAL-DE-MARNE                  ;94081;VITRY-SUR-SEINE                                   ;138;2023100;6770
+VAL-DE-MARNE                  ;94002;ALFORTVILLE                                       ;66;2017101;7244
+SEINE-SAINT-DENIS             ;93031;EPINAY SUR SEINE                                  ;57;2008666;6447
+VAR                           ;83126;LA SEYNE SUR MER                                  ;146;2007082;6875
+VAL-DE-MARNE                  ;94079;VILLIERS SUR MARNE                                ;73;2003023;7008
+SEINE-SAINT-DENIS             ;93057;LES PAVILLONS SOUS BOIS                           ;84;2002058;7076
+SEINE-SAINT-DENIS             ;93006;BAGNOLET                                          ;53;1987488;6081
+ESSONNE                       ;91687;VIRY CHATILLON                                    ;52;1982824;6566
+VAL-D'OISE                    ;95203;EAUBONNE                                          ;135;1977809;6447
+ESSONNE                       ;91377;MASSY                                             ;76;1977630;6644
+YVELINES                      ;78640;VELIZY-VILLACOUBLAY                               ;103;1971971;6082
+YVELINES                      ;78423;MONTIGNY-LE-BRETONNEUX                            ;104;1965794;6096
+YVELINES                      ;78208;ELANCOURT                                         ;59;1961992;6247
+SEINE-SAINT-DENIS             ;93049;NEUILLY PLAISANCE                                 ;62;1945339;6208
+VAL-D'OISE                    ;95219;ERMONT                                            ;95;1932315;5821
+YVELINES                      ;78297;GUYANCOURT                                        ;56;1931793;5644
+DOUBS                         ;25388;MONTBELIARD                                       ;56;1930443;6417
+YVELINES                      ;78311;HOUILLES                                          ;135;1907247;5993
+HAUTS-DE-SEINE                ;92007;BAGNEUX                                           ;60;1904990;5634

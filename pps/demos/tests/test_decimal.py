@@ -1,4 +1,4 @@
-import ppb.demos.demo_decimal as demo_decimal
+import pps.demos.demo_decimal as demo_decimal
 
 
 def test_module():

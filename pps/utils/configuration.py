@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+from pprint import pformat
+
 
 class Borg:
     _shared_state = {}
@@ -24,6 +26,10 @@ class ConfBorg(Borg):
 
     def __str__(self):
         return str(self.val)
+
+    @property
+    def pretty(self):
+        return pformat(self.confdic)
 
     @property
     def conf(self):
