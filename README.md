@@ -45,9 +45,11 @@ https://github.com/seanfisk/python-project-template
 
 ## Usefull libraries
 
-- collections -- specifically namedtuples
-- tempfile -- always use this to create temporary files
-- csv -- always use this to read/write CSV files, don't try and roll your own methods, it'll end in tears
+- collections:  specifically namedtuples
+- tempfile:  always use this to create temporary files
+- csv:  always use this to read/write CSV files, don't try and roll your own methods, it'll end in tears
+- pillow: image juggling
+- decimal: you will need it, try this if you dare:  `print((0.1 + 0.1 + 0.1 - 0.3) == 0)`
 
 ## Documentation
 
@@ -55,7 +57,6 @@ https://github.com/seanfisk/python-project-template
 
 ## Pending
 
-- decimal
 
 
 ******
@@ -63,7 +64,6 @@ https://github.com/seanfisk/python-project-template
 ## Todo
 
 - rename packages to perfect python script
-- pillow
 - sqllite
 - datetime
 - sphinx

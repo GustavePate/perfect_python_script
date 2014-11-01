@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 import pytest
 import logging
+import os
 
 
 logger = logging.getLogger(__name__)
@@ -27,6 +28,7 @@ class TestClass:
             assert res is not None
             im = Image.open(res)
             assert im.size == (100, 100)
+            os.remove(res)
         except Exception:
             logger.exception("Exception !!!")
             assert False

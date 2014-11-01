@@ -50,5 +50,8 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+
 # PyBuilder
 target/
+# Specific files
+ressources/data/why.thumbnail.jpg
