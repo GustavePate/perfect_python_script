@@ -6,7 +6,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-def demo(test_str='blabla'):
+def demo(test_str=u'blabla'):
 
     res =  None
     try:
@@ -14,7 +14,7 @@ def demo(test_str='blabla'):
         logger.info("****** tempfiles *******")
 
         temp = tempfile.TemporaryFile()
-        temp.write(test_str)
+        temp.write(bytes(test_str))
         temp.seek(0)
         res = temp.read()
         logger.info(res)

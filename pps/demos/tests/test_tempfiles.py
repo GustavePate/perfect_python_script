@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 import pps.demos.demo_tempfiles as demo_tempfiles
 import pytest
 
