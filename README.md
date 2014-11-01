@@ -47,17 +47,16 @@ https://github.com/seanfisk/python-project-template
 
 - collections -- specifically namedtuples
 - tempfile -- always use this to create temporary files
+- csv -- always use this to read/write CSV files, don't try and roll your own methods, it'll end in tears
 
 ## Documentation
 
-
+- rename packages to perfect python script
 
 
 ## Pending
 
 - decimal
-- csv -- always use this to read/write CSV files, don't try and roll your own methods, it'll end in tears
-- rename packages to perfect python script
 
 
 ******

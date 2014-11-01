@@ -21,7 +21,7 @@ def pytest_addoption(parser):
 @pytest.fixture(scope="function")
 def carriagereturn(request):
     """ will be run for each test function see pytest.ini """
-    print " "
+    print "."
 
 
 @pytest.fixture(scope="session")
