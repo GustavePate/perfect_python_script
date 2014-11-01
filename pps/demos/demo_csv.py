@@ -30,7 +30,7 @@ def demo():
             try:
                 for row in reader:
                     # pass everything in utf-8
-                    unirow = {k.decode('utf-8').strip(): v.decode('utf-8').strip() for k, v in row.items()}
+                    unirow =  row
                     logger.info(unirow)
                     ouput_rows.append(unirow)
                     if reader.line_num > 10:
