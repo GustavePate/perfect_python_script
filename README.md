@@ -51,7 +51,6 @@ https://github.com/seanfisk/python-project-template
 
 ## Documentation
 
-- rename packages to perfect python script
 
 
 ## Pending
@@ -63,6 +62,7 @@ https://github.com/seanfisk/python-project-template
 
 ## Todo
 
+- rename packages to perfect python script
 - pillow
 - sqllite
 - datetime

@@ -10,6 +10,7 @@ import pps.demos.demo_named_tuples as demo_named_tuples
 import pps.demos.demo_csv as demo_csv
 import pps.demos.demo_tempfiles as demo_tmp
 import pps.demos.demo_progressbar as demo_progressbar
+import pps.demos.demo_pillow as demo_pillow
 
 logger = logging.getLogger(__name__)
 
@@ -53,6 +54,7 @@ def main(verbose, string, exclusive_mode, closed_choice, file1):
         demo_progressbar.demo()
         demo_tmp.demo()
         demo_csv.demo()
+        demo_pillow.demo()
 
     except Exception:
         logger.exception('Failed to run batch')

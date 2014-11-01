@@ -20,15 +20,12 @@ def demo():
 
         x = Decimal(0.1)
         y = Decimal(0.3)
-        getcontext().prec = 2
+        getcontext().prec = 0
         z = x + x + x - y
         logger.info("Decimal:" + str(z))
-
+        res = z
     except Exception:
         res = False
         logger.exception("Decimal demo failed")
-        raise
-    else:
-        res = True
     finally:
         return res
