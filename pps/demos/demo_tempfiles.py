@@ -6,7 +6,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-def demo(test_str=u'blabla'):
+def demo(test_str='blabla'):
 
     res =  None
     try:
