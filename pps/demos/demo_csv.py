@@ -26,7 +26,6 @@ def demo():
         with open(filename, 'r') as f:
             dia = csv.Sniffer().sniff(f.read(1024))
             f.seek(0)
-            print dia
             reader = csv.DictReader(f, dialect=dia)
             try:
                 for row in reader:
