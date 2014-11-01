@@ -17,6 +17,7 @@ def demo(test_str='blabla'):
         temp.write(test_str.encode('utf-8'))
         temp.seek(0)
         res = temp.read()
+        res = res.decode('utf-8')
         logger.info(res)
 
     except Exception:
