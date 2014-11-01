@@ -8,7 +8,7 @@ import pytest
 def test_module():
     try:
         res = demo_tempfiles.demo("blabla")
+        print(res)
         assert res == "blabla"
     except Exception:
-        res = False
-    assert res
+        assert False
