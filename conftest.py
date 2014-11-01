@@ -61,5 +61,4 @@ def confborg(request):
         conf['data_path'] = os.path.dirname(os.path.dirname(conf_path))
         conf['data_path'] = os.path.join(conf['data_path'], 'data')
         res = ConfBorg(conf)
-        print type(res)
     return res
