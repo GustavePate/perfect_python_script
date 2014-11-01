@@ -28,7 +28,7 @@ def carriagereturn(request):
 def initloggers(request):
     """ will be run for each test session see pytest.ini """
     # initialize basic loggers
-    print "****** INIT LOGGERS ******"
+    print("****** INIT LOGGERS ******")
     logging.basicConfig(level=logging.DEBUG)
 
 
@@ -41,13 +41,13 @@ def confborg(request):
     """
 
     def run_only_at_session_end():
-        print "\n ********** End of test session **********"
+        print("\n ********** End of test session **********")
     request.addfinalizer(run_only_at_session_end)
 
-    print "********** Test session init **********"
+    print("********** Test session init **********")
 
     if pytest.config.getoption('confpath') is not None:
-        print "Launch test with conf:", pytest.config.getoption('confpath', default=None)
+        print("Launch test with conf:", pytest.config.getoption('confpath', default=None))
         conf_path = pytest.config.getoption('confpath')
         # previously returns a list, get the string
         if len(pytest.config.getoption('confpath')) > 0:
