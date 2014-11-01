@@ -14,7 +14,7 @@ def demo(test_str='blabla'):
         logger.info("****** tempfiles *******")
 
         temp = tempfile.TemporaryFile()
-        temp.write(bytes(test_str))
+        temp.write(test_str.encode('utf-8'))
         temp.seek(0)
         res = temp.read()
         logger.info(res)
