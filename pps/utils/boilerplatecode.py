@@ -3,7 +3,7 @@
 import json
 import os
 import logging
-from utils.configuration import ConfBorg
+from pps.utils.configuration import ConfBorg
 import sys
 
 logger = logging.getLogger(__name__)

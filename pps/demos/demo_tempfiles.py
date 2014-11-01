@@ -8,12 +8,21 @@ logger = logging.getLogger(__name__)
 
 def demo(test_str='blabla'):
 
-    temp = tempfile.TemporaryFile()
+    res =  None
     try:
+
+        logger.info("****** tempfiles *******")
+
+        temp = tempfile.TemporaryFile()
         temp.write(test_str)
         temp.seek(0)
         res = temp.read()
         logger.info(res)
+
+    except Exception:
+        logger.exception("tempfiles demo failed")
+        raise
+
     finally:
         temp.close()
         return res

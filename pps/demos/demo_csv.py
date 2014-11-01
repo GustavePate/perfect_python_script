@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 import csv
 import logging
-from utils.configuration import ConfBorg
+from pps.utils.configuration import ConfBorg
 import os
 import tempfile
 
@@ -54,9 +54,11 @@ def demo():
             dictwriter.writeheader()
             dictwriter.writerows(ouput_rows)
 
+            res = []
             temp_csv.seek(0)
             for l in temp_csv:
                 logger.info(l.strip())
+                res.append(l.strip())
 
         finally:
             temp_csv.close()
@@ -64,7 +66,5 @@ def demo():
     except Exception:
         res = False
         logger.exception("Csv demo failed")
-    else:
-        res = True
     finally:
         return res

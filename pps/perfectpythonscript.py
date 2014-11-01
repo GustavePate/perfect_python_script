@@ -1,14 +1,15 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+from __future__ import unicode_literals
 import logging.config
 import click
-from utils.boilerplatecode import script_init
-import demos.demo_decimal as demo_decimal
-import demos.demo_named_tuples as demo_named_tuples
-import demos.demo_csv as demo_csv
-import demos.demo_tempfiles as demo_tmp
-import demos.demo_progressbar as demo_progressbar
+from pps.utils.boilerplatecode import script_init
+import pps.demos.demo_decimal as demo_decimal
+import pps.demos.demo_named_tuples as demo_named_tuples
+import pps.demos.demo_csv as demo_csv
+import pps.demos.demo_tempfiles as demo_tmp
+import pps.demos.demo_progressbar as demo_progressbar
 
 logger = logging.getLogger(__name__)
 

@@ -1,8 +1,11 @@
 import pps.demos.demo_decimal as demo_decimal
+import pytest
 
 
-def test_module():
+@pytest.mark.usefixtures("initloggers")
+def test_module(confborg):
     try:
+        print " "
         res = demo_decimal.demo()
     except Exception:
         res = False
