@@ -40,9 +40,14 @@ This script template aim is to enforce best-pratices use. Please contribute if y
 
 - collections:  specifically namedtuples
 - tempfile:  always use this to create temporary files
-- csv:  always use this to read/write CSV files, don't try and roll your own methods, it'll end in tears
 - pillow: image juggling
 - decimal: you will need it, try this if you dare:  `print((0.1 + 0.1 + 0.1 - 0.3) == 0)`
+
+## data
+
+- csv:  always use this to read/write CSV files, don't try and roll your own methods, it'll end in tears
+- sqllite
+
 
 ## Documentation
 
@@ -57,7 +62,6 @@ This script template aim is to enforce best-pratices use. Please contribute if y
 ## Todo
 
 - rename packages to perfect python script
-- sqllite
 - datetime
 - sphinx
 - math -- try and use these functions rather than the global ones, as they're faster when you import them into the global namespace
@@ -71,6 +75,7 @@ This script template aim is to enforce best-pratices use. Please contribute if y
 - BeautifulSoup -- for webscraping and/or parsing potentially malformed HTML
 - os / shutils
 - setuptools
+- redis
 
 ## Don't know if it's usefull
 
