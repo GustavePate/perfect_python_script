@@ -10,18 +10,11 @@ Based on [this reddit post]( http://www.reddit.com/r/Python/comments/28yo37/what
  and
 [Python patterns](http://python-3-patterns-idioms-test.readthedocs.org/)
 
-Pull Request welcome !!!
+This script template aim is to enforce best-pratices use. Please contribute if you feel it should be better written. Pull Request welcome !!!
 
 [![Build Status](https://api.travis-ci.org/GustavePate/perfectpythonbatch.png?branch=master)](https://travis-ci.org/GustavePate/perfectpythonbatch)
 
-## See also
-
-https://github.com/audreyr/cookiecutter-pypackage.git
-https://github.com/jacebrowning/template-python
-https://github.com/seanfisk/python-project-template
-
-
-##Done
+## This template make use of
 
 ### Generalities
 
@@ -34,9 +27,9 @@ https://github.com/seanfisk/python-project-template
 
 ### Quality
 
-- pep8 compliance
 - py.test
 - travis ci
+- pep8 compliance check
 
 ### Pretty
 
@@ -84,3 +77,9 @@ https://github.com/seanfisk/python-project-template
 - buildout -- I'd recommend this over virtualenv any day
 - PyYAML -- for working with YAML docs.
 - ujson -- faster than both simplejson and the built-in json modules, handy if you work with lots of/big JSON blobs
+
+## See also
+
+- https://github.com/audreyr/cookiecutter-pypackage.git
+- https://github.com/jacebrowning/template-python
+- https://github.com/seanfisk/python-project-template

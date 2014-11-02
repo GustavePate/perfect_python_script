@@ -5,12 +5,14 @@ from __future__ import unicode_literals
 import logging.config
 import click
 from pps.utils.boilerplatecode import script_init
+import pps.demos.demo_template as demo_template
 import pps.demos.demo_decimal as demo_decimal
 import pps.demos.demo_named_tuples as demo_named_tuples
 import pps.demos.demo_csv as demo_csv
 import pps.demos.demo_tempfiles as demo_tmp
 import pps.demos.demo_progressbar as demo_progressbar
 import pps.demos.demo_pillow as demo_pillow
+import pps.demos.demo_sqlite as demo_sqlite
 
 logger = logging.getLogger(__name__)
 
@@ -49,12 +51,14 @@ def main(verbose, string, exclusive_mode, closed_choice, file1):
     logger.info("................start...............")
     try:
 
+        demo_template.demo()
         demo_decimal.demo()
         demo_named_tuples.demo()
         demo_progressbar.demo()
         demo_tmp.demo()
         demo_csv.demo()
         demo_pillow.demo()
+        demo_sqlite.demo()
 
     except Exception:
         logger.exception('Failed to run batch')
