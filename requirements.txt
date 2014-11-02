@@ -2,4 +2,3 @@ pytest
 click
 colorlog
 pillow
-sqlite3

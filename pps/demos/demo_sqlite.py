@@ -34,11 +34,20 @@ def demo(rownumber=10000):
 
         # create a table
         cur.execute('''CREATE TABLE inc (value integer)''')
+        conn.commit()
 
         # insert 10.000 rows
         for i in range(1, rownumber + 1):
             # takes a sequence as input
             cur.execute("INSERT INTO inc VALUES (?)", (i,))
+
+        conn.rollback()
+
+        to_insert = []
+        for i in range(1, rownumber + 1):
+            # takes a list of sequence as input
+            to_insert.append((i,))
+        cur.executemany("INSERT INTO inc VALUES (?)", to_insert)
 
         conn.commit()
 
