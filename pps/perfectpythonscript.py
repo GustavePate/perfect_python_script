@@ -13,6 +13,9 @@ import pps.demos.demo_tempfiles as demo_tmp
 import pps.demos.demo_progressbar as demo_progressbar
 import pps.demos.demo_pillow as demo_pillow
 import pps.demos.demo_sqlite as demo_sqlite
+import pps.demos.demo_pandas as demo_pandas
+import pps.demos.demo_matplot as demo_matplot
+import pps.demos.demo_seaborn as demo_seaborn
 
 logger = logging.getLogger(__name__)
 
@@ -51,14 +54,17 @@ def main(verbose, string, exclusive_mode, closed_choice, file1):
     logger.info("................start...............")
     try:
 
-        demo_template.demo()
-        demo_decimal.demo()
-        demo_named_tuples.demo()
-        demo_progressbar.demo()
-        demo_tmp.demo()
-        demo_csv.demo()
-        demo_pillow.demo()
-        demo_sqlite.demo()
+        # demo_template.demo()
+        # demo_decimal.demo()
+        # demo_named_tuples.demo()
+        # demo_progressbar.demo()
+        # demo_tmp.demo()
+        # demo_csv.demo()
+        # demo_pillow.demo()
+        # demo_sqlite.demo()
+        # demo_pandas.demo()
+        # demo_matplot.demo()
+        demo_seaborn.demo()
 
     except Exception:
         logger.exception('Failed to run batch')

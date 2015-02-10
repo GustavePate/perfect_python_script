@@ -2,3 +2,8 @@ pytest
 click
 colorlog
 pillow
+pandas
+numpy
+matplotlib
+seaborn
+scipy

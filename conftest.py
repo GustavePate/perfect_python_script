@@ -4,6 +4,7 @@ import os
 import logging
 from pps.utils.configuration import ConfBorg
 
+
 # py.test tweaking
 # in this exemple: initialize configuration borg for the whole test session
 
@@ -15,7 +16,7 @@ def pytest_report_header(config):
 
 def pytest_addoption(parser):
     """create a confpath command line arg for py.test"""
-    parser.addoption("--confpath", action="append", default=[], help="configuration full path")
+    parser.addoption('--confpath', action="append", default=[], help="configuration full path")
 
 
 @pytest.fixture(scope="function")

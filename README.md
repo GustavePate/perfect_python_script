@@ -1,10 +1,10 @@
 # The Perfect Python Script
 
+Based on [this reddit post]( http://www.reddit.com/r/Python/comments/28yo37/what_are_the_top_10_builtin_python_modules_that_a/)
 A python script template, it's a demonstrator and reminder for the most usefull python libraries and best practices
 
-## Context
-
-Based on [this reddit post]( http://www.reddit.com/r/Python/comments/28yo37/what_are_the_top_10_builtin_python_modules_that_a/)
+Context
+-------
 ,
 [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
  and
@@ -61,16 +61,16 @@ This script template aim is to enforce best-pratices use. Please contribute if y
 
 ## Todo
 
-- rename packages to perfect python script
+- pandas -- csv loading and quick graphing
 - datetime
-- sphinx
 - math -- try and use these functions rather than the global ones, as they're faster when you import them into the global namespace
 - re -- regular expressions
+- requests -- if you need to do any http requests at all, use this
 - string -- I rarely see this used, but it's very handy
-- pandas -- csv loading and quick graphing
+- rename git repo to perfect python script
+- sphinx
 - matplotlib
 - unittest
-- requests -- if you need to do any http requests at all, use this
 - lxml -- always use this for working with XML data
 - BeautifulSoup -- for webscraping and/or parsing potentially malformed HTML
 - os / shutils
