@@ -10,7 +10,7 @@ before_install:
  - sudo apt-get update -qq
  - sudo apt-get install -qq libjpeg-dev
  - sudo apt-get install -qq gfortran 
- - sudo apt-get install -qq libopenblasi-base liblapack3
+ - sudo apt-get install -qq libopenblas-base liblapack3
 
 # command to install dependencies
 install:
