@@ -1,5 +1,8 @@
 # The Perfect Python Script
 
+[![Build Status](https://travis-ci.org/GustavePate/perfect_python_script.svg)](https://travis-ci.org/GustavePate/perfect_python_script)
+
+
 Based on [this reddit post]( http://www.reddit.com/r/Python/comments/28yo37/what_are_the_top_10_builtin_python_modules_that_a/)
 A python script template, it's a demonstrator and reminder for the most usefull python libraries and best practices
 
