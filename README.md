@@ -4,18 +4,20 @@
 
 
 Based on [this reddit post]( http://www.reddit.com/r/Python/comments/28yo37/what_are_the_top_10_builtin_python_modules_that_a/)
-A python script template, it's a demonstrator and reminder for the most usefull python libraries and best practices
+
+This is a python script template, and it's a demonstrator and reminder for the most usefull python libraries and best practices
 
 Context
 -------
-,
+
 [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
  and
 [Python patterns](http://python-3-patterns-idioms-test.readthedocs.org/)
 
-This script template aim is to enforce best-pratices use. Please contribute if you feel it should be better written. Pull Request welcome !!!
+This script template aim is to enforce best-pratices use.
 
-[![Build Status](https://api.travis-ci.org/GustavePate/perfectpythonbatch.png?branch=master)](https://travis-ci.org/GustavePate/perfectpythonbatch)
+Please contribute if you feel it should be better written. Pull Request welcome !!!
+
 
 ## This template make use of
 
@@ -50,15 +52,6 @@ This script template aim is to enforce best-pratices use. Please contribute if y
 
 - csv:  always use this to read/write CSV files, don't try and roll your own methods, it'll end in tears
 - sqllite
-
-
-## Documentation
-
-
-
-## Pending
-
-
 
 ******
 
